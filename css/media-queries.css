@@ -45,6 +45,9 @@
     header nav ul li{
         margin-left: 5px;
     }
+    header nav ul li:first-of-type {
+        margin-right: 5px;
+    }
     header nav ul li:last-of-type a {
         padding: 11px 10px;
 }

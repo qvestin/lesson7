@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6733a8d8-f56f-4aa7-9cf1-3126fd23591d" name="Changes" comment="">
+    <list default="true" id="6733a8d8-f56f-4aa7-9cf1-3126fd23591d" name="Changes" comment="create adaptive">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/media-queries.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media-queries.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,11 +44,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655208477906</updated>
-      <workItem from="1655208479078" duration="9691000" />
+      <workItem from="1655208479078" duration="10395000" />
     </task>
+    <task id="LOCAL-00001" summary="create adaptive">
+      <created>1655227974876</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655227974876</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create adaptive" />
+    <option name="LAST_COMMIT_MESSAGE" value="create adaptive" />
   </component>
 </project>
