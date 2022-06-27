@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6733a8d8-f56f-4aa7-9cf1-3126fd23591d" name="Changes" comment="create adaptive and nav">
-      <change afterPath="$PROJECT_DIR$/css/owl.carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/owl.carousel.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/owl.theme.default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/owl.theme.default.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/owl.carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/owl.carousel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/menu.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/media-queries.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media-queries.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -45,6 +42,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/Пан/Desktop/lesson/lesson7/js",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -68,7 +66,9 @@
       <updated>1655208477906</updated>
       <workItem from="1655208479078" duration="29759000" />
       <workItem from="1655547677559" duration="604000" />
-      <workItem from="1655710842015" duration="7357000" />
+      <workItem from="1655710842015" duration="10206000" />
+      <workItem from="1655920995593" duration="15000" />
+      <workItem from="1656069166024" duration="28324000" />
     </task>
     <task id="LOCAL-00001" summary="create adaptive">
       <created>1655227974876</created>
@@ -98,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655373018417</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="create adaptive and nav">
+      <created>1655731620913</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1655731620913</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
