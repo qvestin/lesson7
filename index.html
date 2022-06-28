@@ -8,16 +8,21 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media-queries.css">
+
+
 </head>
 <body>
 <header class="cd-header">
     <div class="container">
     <div class="header-wrapper">
-        <div class="logo-wrap">
+        <div class="logo-wrap animate__flipInX wow">
             <a href="#"><img src="images/Combined-Shape.svg" alt="logo"></a>
         </div>
         <div class="nav-but-wrap">
@@ -35,7 +40,7 @@
                     <li class="nav__list-item"><a href="#" class="hover-target">Featured images</a></li>
                     <li class="nav__list-item"><a href="#" class="hover-target">Gear cage</a></li>
                     <li class="nav__list-item"><a href="#" class="hover-target">Contact</a></li>
-                    <li class="nav__list-item"><a href="#" class="hover-target">Get template</a></li>
+                    <li class="nav__list-item"><a href="#" class="hover-target animate__flipInX wow">Get template</a></li>
                 </ul>
             </div>
         </div>
@@ -67,8 +72,8 @@
 <!--</header>-->
 <section class="main_banner">
     <div class="container">
-        <h3>Photographer & Filmmaker</h3>
-        <h1>Aperture Studios</h1>
+        <h3 class="animate__zoomInDown wow">Photographer & Filmmaker</h3>
+        <h1 class="animate__zoomInDown wow">Aperture Studios</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
     </div>
     <ul class="li_img">
@@ -99,7 +104,7 @@
     <div class="container">
     <h3>Past clients</h3>
     <p>Trusted by your favourite companies</p>
-    <div class="d-flex owl-carousel">
+    <div class="d-flex owl-carousel wow animate__wobble ">
         <a href="#"><img src="images/Combined-Shape1.svg" alt="pic"></a>
             <a href="#"><img src="images/Combined-Shape2.svg" alt="pic"></a>
                 <a href="#"><img src="images/Combined-Shape3.svg" alt="pic"></a>
@@ -120,9 +125,13 @@
     <div class="container">
     <h3>Need help with photography <br> or videography?</h3>
     <p class="Where">We're here for you!</p>
-    <a class="touch" href="#">Get in touch</a>
+    <a class="touch animate__bounceIn wow" href="#">Get in touch</a>
         </div>
 </section>
+<script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
 <script
         src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="

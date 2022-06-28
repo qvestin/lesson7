@@ -320,6 +320,7 @@ header .container {
 header nav a {
 
 }
-
-
+.nav-active{
+    overflow: hidden;
+}
 

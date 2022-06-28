@@ -1,0 +1,18 @@
+$main_font:'Poppins';
+$black_color:black;
+$white_color:white;
+
+.main_banner h3{
+  font-family: $main_font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: $white_color;
+}
+.backgr_black{
+  background: $black_color;
+  text-align: center;
+}
