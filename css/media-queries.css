@@ -17,14 +17,14 @@
     }
 }
 @media only screen and (max-width: 1024px)  {
-        .backgr_black .d-flex{
+        .backgr_black .img_padding{
         justify-content: center;
         display: inline-grid;
     }
-    .backgr_black .d-flex a{
+    .backgr_black .img_padding a{
         margin-top: 60px;
     }
-    .d-flex{
+    .img_padding{
         padding-top: 1px;
         padding-bottom: 68px;
     }

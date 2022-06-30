@@ -175,11 +175,6 @@
     line-height: 20px;
     color: #FFFFFF;
 }
-header ul {
-    list-style: none;
-    display: flex;
-    align-items: center;
-}
 .nav__list-item {
     margin-left: 32px;
 }
@@ -313,14 +308,8 @@ header .container {
     justify-content: space-between;
     align-items: center;
 }
-
-
-
-
-header nav a {
-
-}
 .nav-active{
     overflow: hidden;
 }
+
 
