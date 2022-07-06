@@ -2,6 +2,7 @@ $main_font:'Poppins';
 $black_color:black;
 $white_color:white;
 
+
 @mixin transform($property) {
   -webkit-transform: $property;
   -ms-transform: $property;

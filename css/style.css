@@ -103,8 +103,11 @@
     background-size: cover;
     height: 70vh;
     position: relative;
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
-.main_banner2 h4{
+.countries_text{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -114,10 +117,7 @@
     text-transform: uppercase;
     color: #FFFFFF;
 }
-.test{
-
-}
-.main_banner2 p{
+.countries_text2{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -126,17 +126,27 @@
     color: #C0C0C0;
     max-width: 298px;
 }
+.main_inherit{
+    margin: inherit;
+    padding-right: 62px;
+}
 .main_banner3{
     background-image: url("../images/IMAGE3.svg");
     background-size: cover;
     height: 70vh;
     position: relative;
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
 .main_banner4{
     background-image: url("../images/IMAGE4.png");
     background-size: cover;
     height: 70vh;
     position: relative;
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
 .backgr_black{
     background: black;
@@ -354,10 +364,148 @@ footer{
     background: black;
     padding: 92px 0 104px;
 }
-footer img{
+.footer_logo{
+    margin-right: 270px;
+}
+.footer_logo a{
+    max-width: 128px;
     display: block;
     width: 100%;
 }
-.footer_logo{
+footer p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #C0C0C0;
+    max-width: 440px;
+    padding-top: 20px;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.Business_footer_li{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+}
+.footer_pages{
+    padding-right: 102px;
+}
+.footer_business_li{
+    margin-right: 55px;
+}
+.footer_padding_cont{
+    padding-bottom: 26px;
+}
+.footer_padding_content{
+    padding-bottom: 36px;
+}
+.footer_rectangle{
+    max-width: 1168px;
+    width: 100%;
+    height: 2px;
+    background: #FFFFFF;
+    border-radius: 0px;
+    margin: 0 0 36px;
+    border-bottom: 0;
+}
+.footer_rectangle_bottom{
+    max-width: 1168px;
+    width: 100%;
+    height: 2px;
+    background: #FFFFFF;
+    border-radius: 0px;
+    margin-bottom: 56px;
+    border-bottom: 0;
+}
+.footer_subscribe{
 
+}
+.footer_subscribe h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+.footer_subscribe h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+.footer_form{
+    box-sizing: border-box;
+    height: 52px;
+    background: #F9FAFB;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    width: 458px;
+}
+.footer_form_submit{
+    position: absolute;
+    height: 30px;
+    border-radius: 11px;
+    width: 63px;
+    margin-left: -66px;
+    margin-top: 10px;
+    background: #000000;
+    border-radius: 11px;
+    border-style: none;
+    cursor: pointer;
+}
+.footer_licensing{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #C0C0C0;
+    padding-top: 0;
+}
+footer .icons {
+    display: flex;
+    align-items: center;
+}
+footer .icons li{
+    margin-left: 20px;
+}
+footer .icons li a:before {
+    content: "";
+    display: flex;
+    background-image: url("../images/icons1.svg");
+    width: 24px;
+    height: 19px;
+}
+footer .icons li:nth-child(2) a:before {
+    background-image: url("../images/icons2.svg");
+    width: 24px;
+    height: 24px;
+}
+footer .icons li:last-of-type a:before {
+    background-image: url("../images/icons3.svg");
+    width: 11px;
+    height: 24px;
 }

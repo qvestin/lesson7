@@ -1,3 +1,11 @@
+@media only screen and (max-width: 1296px) {
+    .the_tools_p{
+        margin: 0 -14px;
+        max-width: 512px;
+    }
+
+
+}
 @media only screen and (max-width: 1175px) {
     header nav ul li:last-of-type a {
         padding: 7px 9px;
